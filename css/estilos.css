@@ -1,8 +1,52 @@
+/*Color comprados: ff8d27.
+Color hover: c16b1e.
+Color header: 5e81d1.
+*/
+
 body {
     margin: 0%;
     background-color: #ff8d27;
 }
 
+.cabecera {
+  border: 40px;
+  background-color: #5e81d1;
+  display: flex;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+}
+
+li a {
+  font-size: 10px;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+ background-color: #5171bd;
+}
+
+.nav {
+  position: absolute;
+  right: 10px;
+  list-style-type: none;
+  display: flex;
+  max-width: 100%;
+  padding-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.nav:hover {
+  cursor: pointer;
+}
 /*Color comprados: ff8d27.
 Color hover: c16b1e.
 Color header: 5e81d1.
