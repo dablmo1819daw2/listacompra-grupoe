@@ -1,6 +1,22 @@
+
 body {
     margin: 0%;
     background-color: #ff8d27;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.cabecera {
+  background-color: #5e81d1;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
 }
 
 /*Color comprados: ff8d27.
