@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href=" ">
+  <script src="https://kit.fontawesome.com/8248ca929a.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="/imagenes/carrito.png" type="image/x-icon">
   <title>ListaCompra_GrupoE</title>
 </head>
@@ -22,28 +23,32 @@
     </div>
   </header>
 
-  <main>
-    <header>
+  <header>
+    <div class="comprados">
+    </div>
+  </header>
 
-    </header>
-    <section>
-      <ul>
-        <li>
-          <input type="checkbox" id="pan"><label for="pan">Pan</label>
-          <label for="pan">0.75€</label>
-        </li>
-        <li>
-          <input type="checkbox" id="azucar"><label for="azucar">Azúcar</label>
-          <label for="azucar"></label>
-        </li>
-        <li>
-          <input type="checkbox" id="leche"><label for="leche">Leche</label>
-          <label for="leche">1.20€</label>
-        </li>
-      </ul>
-      <label for="suma">1.95€</label>
-    </section>
-  </main>
+  <section>
+    <table>
+      <tr>
+        <td><input type="checkbox" id="pan"><label for="pan">Pan</label></td>
+        <td><label for="pan">0.75€</label></td>
+        <td><i class="fas fa-times"></i></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="Azúcar"><label for="Azúcar">Azúcar</label></td>
+        <td><label for="Azúcar"></label></td>
+        <td><i class="fas fa-times"></i></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="leche"><label for="leche">Leche</label></td>
+        <td><label for="leche">1.20€</label></td>
+        <td><i class="fas fa-times"></i></td>
+      </tr>
+
+    </table>
+  </section>
+  <div class="suma">1.90€</div>
 </body>
 
 </html>
