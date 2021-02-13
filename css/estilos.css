@@ -1,6 +1,7 @@
 /*Color comprados: ff8d27.
 Color hover: c16b1e.
 Color header: 5e81d1.
+Color header 2 :f87500
 */
 
 body {
@@ -51,6 +52,7 @@ li a:hover {
     height:65px;
     max-width: 100%;
     border-bottom: solid 1.1px #d96600;
+    background-color: #f87500;
 
 }
 .editar_comprados {
@@ -71,6 +73,7 @@ table {
 td {
   text-align: left;
   padding: 8px;
+  width: 100%;
 }
 
 .suma {
