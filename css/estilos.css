@@ -14,7 +14,7 @@ body {
     background-color: #ff8d27;
 }
 
-.cabecera {
+/* .cabecera {
   border: 40px;
   background-color: #5e81d1;
   display: flex;
@@ -53,7 +53,9 @@ li a:hover {
 .nav:hover {
   cursor: pointer;
 }
-.comprados {
+ */
+
+ .comprados {
     height:65px;
     max-width: 100%;
     border-bottom: solid 1.1px #d96600;
