@@ -10,7 +10,7 @@ body {
 }
 
  .cabecera {
-  border: 40px;
+
   background-color: #5e81d1;
   display: flex;
   padding: 20px;
@@ -20,11 +20,12 @@ h1 {
   margin-top: auto;
   margin-bottom: auto;
   font-size: 20px;
+  margin-left: -10px;
 }
 
 li a {
-  font-size: 10px;
-  padding: 8px;
+  font-size: 11px;
+  padding: 5px;
   text-decoration: none;
   color: black;
 }
@@ -34,14 +35,15 @@ li a:hover {
 }
 
 .nav {
-  position: absolute;
-  right: 10px;
-  list-style-type: none;
-  display: flex;
-  max-width: 100%;
-  padding-right: 20px;
-  margin-top: auto;
-  margin-bottom: auto;
+    position: absolute;
+    right: 10px;
+    /* list-style-type: none; */
+    display: flex;
+    /* max-width: 100%; */
+    /* padding-right: 10px; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    top: 5px;
 
 }
 
@@ -69,7 +71,8 @@ ul {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100vw;
+  border-bottom: solid 1.1px#cccccc;
+  margin-top: 14px;
 }
 
 td {
@@ -85,12 +88,16 @@ td {
 }
 .suma {
   text-align: right;
-  padding: 20px;
+  padding: 8px;
 }
 
 tr:hover {
   background-color: #c16b1e;
   color: white;
+}
+.fa-times:before {
+    content: "\f00d";
+    margin-left: 8px;
 }
 /*Color comprados: ff8d27.
 Color hover: c16b1e.
