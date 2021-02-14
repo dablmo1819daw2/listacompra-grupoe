@@ -92,6 +92,11 @@ tr:hover {
   background-color: #c16b1e;
   color: white;
 }
+
+
+input, textarea, select{
+  font-family:inherit;
+}
 /*Color comprados: ff8d27.
 Color hover: c16b1e.
 Color header: 5e81d1.
