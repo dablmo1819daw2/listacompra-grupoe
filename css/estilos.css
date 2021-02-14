@@ -71,7 +71,7 @@ ul {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  border-bottom: solid 1.1px#cccccc;
+  /*border-bottom: solid 1.1px#cccccc;*/
   margin-top: 14px;
 }
 
@@ -104,7 +104,11 @@ tr:hover {
 .fas {
 margin-left: 10px;
 }
-
+.border {
+border-bottom: solid 1.1px#cccccc;
+margin-left: 3%;
+margin-right: 5%;
+}
 /*Color comprados: ff8d27.
 Color hover: c16b1e.
 Color header: 5e81d1.
