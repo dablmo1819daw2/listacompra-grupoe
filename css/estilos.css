@@ -25,7 +25,7 @@ h1 {
 
 li a {
   font-size: 11px;
-  padding: 5px;
+  padding: 8px;
   text-decoration: none;
   color: black;
 }
@@ -89,6 +89,7 @@ td {
 .suma {
   text-align: right;
   padding: 8px;
+  margin-right: 10px;
 }
 
 tr:hover {
@@ -97,8 +98,13 @@ tr:hover {
 }
 .fa-times:before {
     content: "\f00d";
-    margin-left: 8px;
+    margin-left: 20px;
+    margin:-100%;
 }
+.fas {
+margin-left: 10px;
+}
+
 /*Color comprados: ff8d27.
 Color hover: c16b1e.
 Color header: 5e81d1.
