@@ -25,17 +25,27 @@
 
   <section class="barra-inf">
     <header>
-      <i class="fas fa-minus-circle fa-2x"></i>
+      <i class="fas fa-minus-circle fa"></i>
       <p class="comprados"><span>2</span>/<span>3</span>comprados</p>
     </header>
   </section>
 
   <section class="form">
-    <h2 class="edit-art">Editar Artículo</h2>
     <form>
-      <label>Nombre:<input type="text" name="" size="40" required></label>
-      <label>Precio:<input type="number" name="" size="40">€</label>
-      <button type="button">Modificar</button>
+      <h2>Editar artículo</h2>
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input required type="text" id="nombre">
+      </div>
+
+      <div>
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio"> €
+      </div>
+
+      <div>
+        <button type="submit">Modificar</button>
+      </div>
     </form>
   </section>
 
