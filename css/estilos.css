@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, Oxygen-Sans, Ubuntu, Cantarell,
@@ -7,6 +12,10 @@ body {
 body {
     margin: 0%;
     background-color: #ff8d27;
+}
+div label {
+    display: block;
+    padding: 10px 0px;
 }
 /*altura cabecera en la foto: 149px
 ancho cabecera en la foto: 778px
@@ -41,9 +50,9 @@ ancho cabecera en la foto: 778px
 }
 
 .form {
-  padding-top: 55px;
-  padding-left: 15px;
-  padding-right: 15px;
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -54,11 +63,9 @@ h1 {
     padding-left: 15px;
 }
 li a {
-
-  padding: 8px;
-  text-decoration: none;
-  color: black;
-
+    padding: 4px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -94,8 +101,10 @@ li a:focus {
 }
 
 .comprados {
-  position: absolute;
-  right: 15px;
+    position: absolute;
+    right: 15px;
+    top: 40%;
+    font-size: 23px;
 }
 
 .barra-inf {
@@ -139,7 +148,7 @@ td {
   text-align: right;
   padding: 8px;
   margin-right: 10px;
-  border-top: solid 1.1px#cccccc;
+ /* border-top: solid 1.1px#cccccc;*/
 }
 
 tr:hover {
@@ -151,11 +160,19 @@ tr:hover {
 input, textarea, select{
   font-family:inherit;
 }
-
-.fa-times:before {
-    content: "\f00d";
-    margin-left: 20px;
-    margin:-100%;
+.fa-minus-circle:before {
+    content: "\f056";
+    font-size: 35px;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    top: 40%;
+}
+.fa-plus-circle:before {
+       content: "\f056";
+    font-size: 35px;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    top: 40%;
 }
 .fas {
 margin-left: 10px;
@@ -163,6 +180,7 @@ margin-left: 10px;
 .link-active {
     font-weight: bolder;
 }
+
 /*
 .border {
 border-bottom: solid 1.1px#cccccc;
