@@ -162,3 +162,10 @@ margin-right: 5%;
 Color hover: c16b1e.
 Color header: 5e81d1.
 */
+
+.boton {
+  color: #FFF;
+  padding: 10px 10px;
+  background-color: #5e81d1;
+  text-decoration: none;
+}
