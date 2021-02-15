@@ -59,10 +59,15 @@ li a {
   padding: 8px;
   text-decoration: none;
   color: black;
+
 }
 
 li a:hover {
  text-decoration-line: underline;;
+}
+
+li a:focus {
+ font-weight: bold;
 }
 
 .nav {
@@ -161,3 +166,4 @@ margin-right: 5%;
 Color hover: c16b1e.
 Color header: 5e81d1.
 */
+
